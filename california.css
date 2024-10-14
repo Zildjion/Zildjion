@@ -1,0 +1,155 @@
+.container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+}
+
+.item {
+    background-color: #c1d3a2;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.text_center {
+    text-align: center;
+}
+
+a {
+    color: #4b6b47;
+}
+
+a:active {
+    color: #6c7a86;
+}
+
+address {
+    background-color: #c1d3a2;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-style: normal;
+    padding: 10px;
+}
+
+body {
+    background-color: #e0dcc1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #6c7a86;
+    color: #fefbd8;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    border-bottom: 2px solid #4b6b47;
+    color: #4b6b47;
+    font-size: 2em;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+header {
+    background-color: #4b6b47;
+    color: #fefbd8;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img.html_code {
+    width: 75%;
+}
+
+main {
+    padding: 20px;
+}
+
+nav {
+    background-color: #6c7a86;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #4b6b47;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    background-color: #c1d3a2;
+    border-radius: 5px;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+ul li:hover {
+    background-color: #a7c485;
+}
+
+section {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #4b6b47;
+    background-color: #e0dcc1;
+}
+
+b {
+    font-weight: 700;
+    color: #4b6b47;
+}
+
+i {
+    font-style: italic;
+    color: #39566f;
+}
+
+u {
+    color: #39566f;
+}

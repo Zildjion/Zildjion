@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>WebDev Solutions | Internal CSS Demonstration</title>
+
+        <style>
+
+            .container {
+                display: grid;
+                gap: 20px;
+                grid-template-columns: 1fr 1fr;
+                margin-bottom: 20px;
+            }
+
+            .item {
+                background-color: #c1d3a2;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                padding: 20px;
+            }
+
+            .text_center {
+                text-align: center;
+            }
+
+            a {
+                color: #4b6b47;
+            }
+
+            a:active {
+                color: #6c7a86;
+            }
+
+            address {
+                background-color: #c1d3a2;
+                border-radius: 5px;
+                font-size: 1.1em;
+                font-style: normal;
+                padding: 10px;
+            }
+
+            body {
+                background-color: #e0dcc1;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            footer {
+                background-color: #6c7a86;
+                color: #fefbd8;
+                margin-top: 20px;
+                padding: 10px;
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 2.5em;
+            }
+
+            h2 {
+                border-bottom: 2px solid #4b6b47;
+                color: #4b6b47;
+                font-size: 2em;
+                margin-bottom: 15px;
+                padding-bottom: 10px;
+            }
+
+            header {
+                background-color: #4b6b47;
+                color: #fefbd8;
+                padding: 20px;
+                text-align: center;
+            }
+
+            img {
+                display: block;
+                height: auto;
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+
+            img.html_code {
+                width: 75%;
+            }
+
+            main {
+                padding: 20px;
+            }
+
+            nav {
+                background-color: #6c7a86;
+                padding: 15px;
+                text-align: center;
+            }
+
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            nav ul li {
+                display: inline;
+                margin-right: 20px;
+            }
+
+            nav ul li a {
+                color: #4b6b47;
+                font-size: 1.2em;
+                text-decoration: none;
+            }
+
+            nav ul li a:hover {
+                text-decoration: underline;
+            }
+
+            p {
+                font-size: 1.1em;
+                line-height: 1.6;
+            }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            ul li {
+                background-color: #c1d3a2;
+                border-radius: 5px;
+                font-size: 1.1em;
+                margin-bottom: 10px;
+                padding: 10px;
+            }
+
+            ul li:hover {
+                background-color: #a7c485;
+            }
+
+            section {
+                margin: 20px 0;
+                padding: 10px;
+                border: 1px solid #4b6b47;
+                background-color: #e0dcc1;
+            }
+
+            b {
+                font-weight: 700;
+                color: #4b6b47;
+            }
+
+            i {
+                font-style: italic;
+                color: #39566f;
+            }
+
+            u {
+                color: #39566f;
+            }
+        
+        </style>
+        
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Internal CSS Demonstration</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="task1.html">Home</a></li>
+                <li><a href="#about">About Internal CSS</a></li>
+                <li><a href="#uses">Use Cases</a></li>
+                <li><a href="#limits">Limitations</a></li>
+                <li><a href="#conclusion">Conclusion and References</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="about">
+
+                <h2>About Internal CSS</h2>
+
+                <div class="container">
+                    <div class="item">
+                        <p>
+                            <b>This webpage</b> utilizes only <i>Internal CSS</i> in order to achieve its current look.
+                        </p>
+                        <p>
+                            <u>Internal CSS</u> is a method for defining CSS styles directly within an HTML document.
+                        </p>
+                        <p>
+                            It’s particularly useful for applying unique styles to a single web page, and it’s embedded within the <i>'style'</i> element located in the <i>'head'</i> section of the HTML file.
+                        </p>
+                        <p>
+                            To use internal CSS, you need to include CSS rules within a <i>'style'</i> tag inside the HTML document’s <i>'head'</i>.
+                        </p>
+                        <p>
+                            This allows you to define styles by selecting HTML elements or classes and applying styling rules within the tag.
+                        </p>
+                        <p>
+                            The styles defined by internal CSS apply only to the specific web page where they are included.
+                        </p>
+                        <p>
+                            By understanding the strengths and limitations of internal CSS, you can make informed decisions about when and how to use it effectively in your web projects.
+                        </p>
+                        <p>
+                            For further learning, consider exploring more detailed CSS tutorials and examples.
+                        </p>                                
+                    </div>
+                    <div class="item">
+                        <p>
+                            <img class="html_code" src="assets/california2/images/example1.png" alt="Sample for Internal CSS">
+                            <p class="text_center"><i><b>Figure 1: </b>Sample Code for Internal CSS</i></p>
+                            <img src="assets/california2/images/example2.png" alt="Browser Output for Internal CSS" >
+                            <p class="text_center"><i><b>Figure 2: </b>Browser Output for Internal CSS</i></p>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="uses">
+                <h2>Use Cases</h2>
+                <ul>
+                    <li>
+                        <b>Localized Styling</b> – Keeps styles within the HTML file, avoiding conflicts with other pages and making it easier to manage styles at the local level.
+                    </li>
+                    <li>
+                        <b>Higher Specificity</b> – Internal CSS has higher specificity than external CSS, allowing easier overriding of external styles within the same HTML file.
+                    </li>
+                    <li>
+                        <b>Performance</b> – Reduces HTTP requests, potentially enhancing performance as no additional CSS files need to be loaded.
+                    </li>
+                    <li>
+                        <b>Ease of Implementation</b> – Simple to use and implement, making it easy to quickly apply styles to a single page.
+                    </li>
+                </ul>
+            </section>
+
+            <section id="limits">
+                <h2>Limitations</h2>
+                <ul>
+                    <li>
+                        <b>Repetition</b> – Styles must be repeated in multiple HTML files if the same styles are needed across different pages.
+                    </li>
+                    <li>
+                        <b>Increased File Size</b> – Embedding CSS in HTML increases the file size of the HTML document.
+                    </li>
+                    <li>
+                        <b>Reduced Reusability</b> – Limited code reusability across different web pages.
+                    </li>
+                    <li>
+                        <b>Limited Management</b> – Managing styles across multiple pages can become difficult without a centralized stylesheet.
+                    </li>
+                </ul>
+            </section>
+            
+            <section id="conclusion">
+                <h2>Conclusion and References</h2>
+                <div class="container">
+                    <div class="item">
+                        <p><b>Conclusion:</b></p>
+                        <p>
+                            <b>Internal CSS</b> is an effective method for defining styles within an HTML document, providing a simple and efficient way to manage localized styling.
+                        </p>
+                        <p>
+                            By embedding CSS rules within the <i>'style'</i> tag located in the <i>'head'</i> section, developers can achieve higher specificity and improved performance by reducing HTTP requests.
+                        </p>
+                        <p>
+                            The ease of implementation makes it ideal for quickly applying styles to a single page, especially in scenarios where unique styling is required.
+                        </p>
+                        <p>
+                            However, it is important to consider the limitations, such as repetition of styles across multiple pages, increased file size, and reduced code reusability.
+                        </p>
+                        <p>
+                            By understanding these strengths and limitations, developers can make informed decisions on when and how to utilize Internal CSS effectively in their projects.
+                        </p>
+                        <p>
+                            For further learning, exploring more detailed CSS tutorials and examples is recommended.
+                        </p>                        
+                    </div>
+                    <div class="item">
+                        <p><b>References:</b></p>
+                        <p>
+                            GeeksforGeeks. (n.d.). Internal CSS. GeeksforGeeks. Retrieved October 13, 2024, from <a href="https://www.geeksforgeeks.org/internal-css/">https://www.geeksforgeeks.org/internal-css/</a>
+                        </p>
+                        <p>
+                            TutorialsPoint. (n.d.). CSS tutorial. TutorialsPoint. Retrieved October 13, 2024, from <a href="https://www.tutorialspoint.com/css/index.htm">https://www.tutorialspoint.com/css/index.htm</a>
+                        </p>
+                        <p>
+                            W3Schools. (n.d.). CSS how to. W3Schools. Retrieved October 13, 2024, from <a href="https://www.w3schools.com/css/css_howto.asp">https://www.w3schools.com/css/css_howto.asp</a>
+                        </p>       
+                    </div>
+                </div>
+                <address>
+                    <b>Webpage By:</b><br><br>
+                    Name: Zildjian E. California<br>
+                    Student ID: 2024-14086<br>
+                    Email: <a href="mailto:zcalifornia@up.edu.ph">zcalifornia@up.edu.ph</a><br>
+                    Phone: +63 9460604514
+                </address>
+            </section>
+            
+        </main>
+
+        <footer>
+            <q>Sometimes it is the people no one can imagine anything of who do the things no one can imagine.</q> - Alan Turing <br>
+            &copy; 2024 WebDev Solutions. All Rights Reserved.
+        </footer>
+
+    </body>
+
+</html>

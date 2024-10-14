@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>WebDev Solutions</title>
+
+        <style>
+
+            .container {
+                display: grid;
+                gap: 20px;
+                grid-template-columns: 1fr 1fr;
+                margin-bottom: 20px;
+            }
+
+            .item {
+                background-color: #c1d3a2;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                padding: 20px;
+            }
+
+            .text_center {
+                text-align: center;
+            }
+
+            a {
+                color: #4b6b47;
+            }
+
+            a:active {
+                color: #6c7a86;
+            }
+
+            address {
+                background-color: #c1d3a2;
+                border-radius: 5px;
+                font-size: 1.1em;
+                font-style: normal;
+                padding: 10px;
+            }
+
+            body {
+                background-color: #e0dcc1;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            footer {
+                background-color: #6c7a86;
+                color: #fefbd8;
+                margin-top: 20px;
+                padding: 10px;
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 2.5em;
+            }
+
+            h2 {
+                border-bottom: 2px solid #4b6b47;
+                color: #4b6b47;
+                font-size: 2em;
+                margin-bottom: 15px;
+                padding-bottom: 10px;
+            }
+
+            header {
+                background-color: #4b6b47;
+                color: #fefbd8;
+                padding: 20px;
+                text-align: center;
+            }
+
+            img {
+                display: block;
+                height: auto;
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+
+            main {
+                padding: 20px;
+            }
+
+            nav {
+                background-color: #6c7a86;
+                padding: 15px;
+                text-align: center;
+            }
+
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            nav ul li {
+                display: inline;
+                margin-right: 20px;
+            }
+
+            nav ul li a {
+                color: #4b6b47;
+                font-size: 1.2em;
+                text-decoration: none;
+            }
+
+            nav ul li a:hover {
+                text-decoration: underline;
+            }
+
+            p {
+                font-size: 1.1em;
+                line-height: 1.6;
+            }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            ul li {
+                background-color: #c1d3a2;
+                border-radius: 5px;
+                font-size: 1.1em;
+                margin-bottom: 10px;
+                padding: 10px;
+            }
+
+            ul li:hover {
+                background-color: #a7c485;
+            }
+
+            section {
+                margin: 20px 0;
+                padding: 10px;
+                border: 1px solid #4b6b47;
+                background-color: #e0dcc1;
+            }
+
+            b {
+                font-weight: 700;
+                color: #4b6b47;
+            }
+
+            i {
+                font-style: italic;
+                color: #39566f;
+            }
+
+            u {
+                color: #39566f;
+            }
+        
+        </style>
+    
+    </head>
+
+    <body>
+
+        <header>
+            <h1>WebDev Solutions</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="about">
+
+                <h2>About Us</h2>
+
+                <div class="container">
+                    <div class="item">
+                        <p>
+                            <b>WebDev Solutions</b> is a collection of webpages made in order to satisfy one thing: <i>HTML-CSS Education</i>.
+                        </p>
+                        <p>
+                            <u>Cascading Style Sheets (CSS)</u> is a core web technology that is used to manage how HTML documents look visually. It provides guidelines for a web page's layout, colors, fonts, and other design aspects, enabling web designers to construct websites that are both aesthetically pleasing and user-friendly. Modern web design relies heavily on CSS, which is necessary for producing user interfaces that are both appealing and responsive.
+                        </p>
+                        <p>
+                            This page was made with the sole objective to help others explore and understand various methods of applying <i>CSS (Cascading Style Sheets)</i> to HTML web pages. This serves as your avenue to conduct online research to discover and learn the different techniques for styling web content using CSS.
+                        </p>
+                        <p>
+                            This webpage applies at least one unique style to each HTML element on the webpage. It makes sure that every element (e.g., paragraphs, headings like <b>'h1'</b>, <b>'h2'</b>, etc.) has a distinct style. For instance, if there are multiple <i>'p'</i> (paragraph) tags, the same style should apply consistently to all the <i>'p's</i>.
+                        </p>
+                        <p>
+                            This is done to adhere to original design specifications and instructions, however I took the liberty to apply other styles for the pages linked to this 'home' page.
+                        </p>                        
+                    </div>
+                    <div class="item">
+                        <img src="assets/task1/images/zcalifornia.png" alt="Official Portrait of Zildjian E. California">
+                        <p class="text_center"><i><b>Figure 1: </b>Zildjian E. California, CEO of WebDev Solutions</i></p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="services">
+                <h2>Our Services</h2>
+                <ul>
+                    <li>
+                        <b><a href="california1.html">Inline CSS Tutorial</a></b> – Click this link to learn how to apply styles directly to HTML elements using inline CSS. This tutorial covers the basics, advantages, and best practices for using inline styles efficiently.
+                    </li>
+                    <li>
+                        <b><a href="california2.html">Internal CSS Tutorial</a></b> – Click this link to discover the method of defining CSS styles within an HTML document using the <i>'style'</i> tag in the <i>'head'</i> section. This tutorial includes practical examples and tips for managing styles locally within a single HTML file.
+                    </li>
+                    <li>
+                        <b><a href="california3.html">External CSS Tutorial</a></b> – Click this link to understand how to create and link external CSS files to style multiple HTML pages consistently. This tutorial explains the benefits, implementation steps, and performance considerations for using external CSS.
+                    </li>                
+            </section>
+
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <div class="container">
+                    <div class="item">
+                        <p>
+                            The developer of this website is a <b>1st Year Student</b> of the <i>University of the Philippines Mindanao</i> at the <u>College of Science and Mathematics</u> under the <b>BS Computer Science Program</b>.
+                        </p>
+                        <p>
+                            The <i>University of the Philippines Mindanao</i> (also referred to as <b>UPMin</b> or <b>UP Mindanao</b>) is a public research university, serving as the sixth constituent unit of the <b>University of the Philippines System</b>.
+                        </p>
+                        <p>
+                            UP Mindanao is located in <b>Barangay Mintal</b>, in a setting that is unique in the booming <i>Davao City</i>. It is surrounded by a landscape that is free of intrusive urban and commercial distractions.
+                        </p>                 
+                        <p>
+                            UP Mindanao is the only constituent university of the UP System that was created through legislative action. <i>Republic Act 7889</i> formally created UP Mindanao on <b>February 20, 1995</b>.
+                        </p>
+                        <p>
+                            The university was later formally recognized as an independent constituent university by the <b>Board of Regents of the UP System</b> on <b>March 23, 1995</b>.
+                        </p>
+                        <p>
+                            Its main focus of education is <i>Mindanao studies</i> through an affirmative action program in the <b>Autonomous Region in Muslim Mindanao</b> to attract Muslims and Lumad students, aside from the marginalized and deserving students.
+                        </p>
+                        <p>
+                            The university was first named <i>University of the Philippines in Mindanao</i> to declare the arrival of the state university in Mindanao after a long period of waiting by eager alumni and students.
+                        </p>
+                        <p>
+                            This was later replaced to its present name due to the request of the UP System for formalities' sake.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>
+                            AspiringYouths. (n.d.). Advantages and disadvantages of inline CSS. AspiringYouths. Retrieved October 13, 2024, from <a href="https://aspiringyouths.com/advantages-disadvantages/inline-css">https://aspiringyouths.com/advantages-disadvantages/inline-css</a>
+                        </p>
+                        <p>
+                            Code Institute. (n.d.). Inline CSS. Code Institute. Retrieved October 13, 2024, from <a href="https://codeinstitute.net/global/blog/inline-css">https://codeinstitute.net/global/blog/inline-css</a>
+                        </p>
+                        <p>
+                            Codecademy. (n.d.). HTML inline styles. Codecademy. Retrieved October 13, 2024, from <a href="https://www.codecademy.com/article/html-inline-styles">https://www.codecademy.com/article/html-inline-styles</a>
+                        </p>
+                        <p>
+                            FreeCodeCamp. (n.d.). Inline CSS guide: How to style an HTML tag directly. FreeCodeCamp. Retrieved October 13, 2024, from <a href="https://www.freecodecamp.org/news/inline-css-guide-how-to-style-an-html-tag-directly/">https://www.freecodecamp.org/news/inline-css-guide-how-to-style-an-html-tag-directly/</a>
+                        </p>
+                        <p>
+                            GeeksforGeeks. (n.d.). How to Link External CSS to HTML. GeeksforGeeks. Retrieved October 13, 2024, from <a href="https://www.geeksforgeeks.org/how-to-link-external-css-to-html/">https://www.geeksforgeeks.org/how-to-link-external-css-to-html/</a>
+                        </p>
+                        <p>
+                            GeeksforGeeks. (n.d.). Internal CSS. GeeksforGeeks. Retrieved October 13, 2024, from <a href="https://www.geeksforgeeks.org/internal-css/">https://www.geeksforgeeks.org/internal-css/</a>
+                        </p>
+                        <p>
+                            Gyata. (n.d.). Inline CSS. Gyata. Retrieved October 13, 2024, from <a href="https://www.gyata.ai/css/inline-css">https://www.gyata.ai/css/inline-css</a>
+                        </p>
+                        <p>
+                            Javatpoint. (n.d.). Inline CSS. Javatpoint. Retrieved October 13, 2024, from <a href="https://www.javatpoint.com/inline-css">https://www.javatpoint.com/inline-css</a>
+                        </p>
+                        <p>
+                            Primer CSS. (n.d.). Inline CSS. Primer CSS. Retrieved October 13, 2024, from <a href="https://primercss.io/css-inline/">https://primercss.io/css-inline/</a>
+                        </p>
+                        <p>
+                            Simplilearn. (2023). Inline CSS tutorial. Simplilearn. Retrieved October 13, 2024, from <a href="https://www.simplilearn.com/tutorials/css-tutorial/inline-css">https://www.simplilearn.com/tutorials/css-tutorial/inline-css</a>
+                        </p>
+                        <p>
+                            TutorialsPoint. (n.d.). CSS tutorial. TutorialsPoint. Retrieved October 13, 2024, from <a href="https://www.tutorialspoint.com/css/index.htm">https://www.tutorialspoint.com/css/index.htm</a>
+                        </p>
+                        <p>
+                            W3Schools. (n.d.). CSS how to. W3Schools. Retrieved October 13, 2024, from <a href="https://www.w3schools.com/css/css_howto.asp">https://www.w3schools.com/css/css_howto.asp</a>
+                        </p>                        
+                    </div>
+                </div>
+                <address>
+                    <b>Webpage By:</b><br><br>
+                    Name: Zildjian E. California<br>
+                    Student ID: 2024-14086<br>
+                    Email: <a href="mailto:zcalifornia@up.edu.ph">zcalifornia@up.edu.ph</a><br>
+                    Phone: +63 9460604514
+                </address>
+            </section>
+        </main>
+
+        <footer>
+            Here at WebDev Solutions, we do more than just build websites - we shape the digital minds and worlds of tomorrow. <br>
+            &copy; 2024 WebDev Solutions. All Rights Reserved.
+        </footer>
+
+    </body>
+</html>
